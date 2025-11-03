@@ -34,13 +34,13 @@ const menuItems: {
   { title: "Administration", link: "/administration" },
   {
     title: "Get involved",
-    link: "/departments",
-    subItems: [
-      { title: "Computer Lab", link: "/departments/computer-lab" },
-      { title: "Library", link: "/departments/library" },
-      { title: "Sports Department", link: "/departments/sports" },
-      { title: "Accounts / Records / Bills", link: "/departments/accounts" },
-    ],
+    link: "./getinvolved/board",
+    // subItems: [
+    //   { title: "Computer Lab", link: "/departments/computer-lab" },
+    //   { title: "Library", link: "/departments/library" },
+    //   { title: "Sports Department", link: "/departments/sports" },
+    //   { title: "Accounts / Records / Bills", link: "/departments/accounts" },
+    // ],
   },
   { title: "About Us", link: "/about" },
 ];

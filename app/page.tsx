@@ -64,13 +64,13 @@ export default function Home() {
         <section className="py-24 bg-white">
           <div className="max-w-6xl mx-auto px-6 text-center">
             <h2 className="text-4xl font-serif mb-10 text-black">
-              Our Programs
+              Our Classes
             </h2>
             <div className="grid md:grid-cols-3 gap-10">
               {[
                 {
                   title: "Preschool",
-                  img: "/program1.jpg",
+                  img: "/presch.jpg",
                   desc: "Building strong foundations through play and curiosity.",
                 },
                 {
