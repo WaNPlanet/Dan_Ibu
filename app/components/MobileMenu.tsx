@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Link from "next/link";
 
+
 type Props = {
   open: boolean;
   onClose: () => void;
@@ -17,24 +18,24 @@ const menuItems: {
 //   { title: "Home", link: "/" },
   {
     title: "Creche/Nursery/Kindergarten",
-    link: "/creche",
+    link: "/components/creche",
   },
   {
     title: "Primary (Stage 1–6)",
-    link: "/primary",
+    link: "/components/primary",
     subItems: [
       { title: "Prefects Corner (Primary)", link: "/primary/prefects" },
     ],
   },
   {
     title: "Junior High School (JHS 1–3)",
-    link: "/junior-high",
+    link: "/components/junior-high",
     subItems: [{ title: "Prefects Corner (JHS)", link: "/junior-high/prefects" }],
   },
-  { title: "Administration", link: "/administration" },
+  { title: "Administration", link: "/components/administration" },
   {
     title: "Get involved",
-    link: "./getinvolved/board",
+    link: "/components/getinvolved",
     // subItems: [
     //   { title: "Computer Lab", link: "/departments/computer-lab" },
     //   { title: "Library", link: "/departments/library" },
@@ -42,7 +43,7 @@ const menuItems: {
     //   { title: "Accounts / Records / Bills", link: "/departments/accounts" },
     // ],
   },
-  { title: "About Us", link: "/about" },
+  { title: "About Us", link: "/components/about" },
 ];
 
 // PLACEHOLDER TEXT
