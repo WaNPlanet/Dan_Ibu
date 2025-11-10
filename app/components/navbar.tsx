@@ -28,7 +28,8 @@ export default function Navbar() {
                   alt="Dan Ibu Logo"
                   className="w-12 h-auto sm:w-14"
                 />
-                <div className="flex flex-col leading-tight">
+                {/* School Name - Hidden on small screens, shown on medium and up */}
+                <div className="hidden md:flex flex-col leading-tight">
                   <div className="text-xl sm:text-2xl font-serif tracking-tight text-black">
                     DAN IBU
                   </div>
@@ -69,7 +70,7 @@ export default function Navbar() {
                       onChange={(e) => setSearchQuery(e.target.value)}
                       placeholder="Search..."
                       autoFocus
-                      className="bg-transparent text-yellow-400 placeholder-yellow-300 outline-none border-none text-base w-40 sm:w-64"
+                      className="bg-transparent text-yellow-400 placeholder-yellow-300 outline-none border-none text-base w-32 sm:w-48 md:w-64"
                     />
                     <button
                       type="button"
